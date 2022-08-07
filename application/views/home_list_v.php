@@ -70,7 +70,7 @@ Halo, <?php echo $this->data['u_name']; ?> Silahkan pilih menu disamping untuk m
 		</div>
 	</div>
 
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+	<!-- <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 		<div class="small-box bg-green">
 			<div class="inner">
 				<h2 class="kotak_judul"> Simpanan <?php echo $txt_periode ?> </h2>
@@ -97,7 +97,7 @@ Halo, <?php echo $this->data['u_name']; ?> Silahkan pilih menu disamping untuk m
 				<i class="fa fa-arrow-circle-right"></i>
 			</a>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 		<div class="small-box bg-purple">

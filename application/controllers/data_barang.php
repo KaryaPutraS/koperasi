@@ -9,14 +9,14 @@ class Data_barang extends OperatorController {
 	public function index() {
 		$this->data['judul_browser'] = 'Setting';
 		$this->data['judul_utama'] = 'Setting';
-		$this->data['judul_sub'] = 'Data Barang';
+		$this->data['judul_sub'] = 'Jenis Pinjaman';
 
 		$this->output->set_template('gc');
 
 		$this->load->library('grocery_CRUD');
 		$crud = new grocery_CRUD();
 		$crud->set_table('tbl_barang');
-		$crud->set_subject('Data Barang');
+		$crud->set_subject('Jenis Pinjaman');
 	
 		$crud->fields('nm_barang','type','merk','harga','jml_brg','ket');
 
