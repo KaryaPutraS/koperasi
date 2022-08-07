@@ -123,7 +123,7 @@ if(in_array($this->uri->segment(1), $menu_pinjam_arr)) {echo "active";}?>">
 	<?php if($level != 'pinjaman') { ?>
 		<li class="<?php if ($this->uri->segment(1) == 'lap_anggota') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_anggota"><i class="fa fa-folder-open-o"></i> Data Anggota </a></li>
 	<?php } ?>
-		<li class="<?php if ($this->uri->segment(1) == 'lap_kas_anggota') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>lap_kas_anggota"> <i class="fa fa-folder-open-o"></i> Kas Anggota </a></li>
+		<!-- <li class="<?php if ($this->uri->segment(1) == 'lap_kas_anggota') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>lap_kas_anggota"> <i class="fa fa-folder-open-o"></i> Kas Anggota </a></li> -->
 	
 	<?php if($level != 'pinjaman') { ?>
 		<li class="<?php if ($this->uri->segment(1) == 'lap_tempo') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_tempo"><i class="fa fa-folder-open-o"></i> Jatuh Tempo </a></li>
@@ -136,15 +136,15 @@ if(in_array($this->uri->segment(1), $menu_pinjam_arr)) {echo "active";}?>">
 
 		<li class="<?php if ($this->uri->segment(1) == 'lap_neraca') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_neraca"><i class="fa fa-folder-open-o"></i> Neraca Saldo</a></li>
 
-		<li class="<?php if ($this->uri->segment(1) == 'lap_simpanan') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>lap_simpanan"> <i class="fa fa-folder-open-o"></i> Kas Simpanan </a></li>
+		<!-- <li class="<?php if ($this->uri->segment(1) == 'lap_simpanan') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>lap_simpanan"> <i class="fa fa-folder-open-o"></i> Kas Simpanan </a></li> -->
 
 		<li class="<?php if ($this->uri->segment(1) == 'lap_kas_pinjaman') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>lap_kas_pinjaman"> <i class="fa fa-folder-open-o"></i> Kas Pinjaman </a></li>
 
 		<li class="<?php if ($this->uri->segment(1) == 'lap_saldo') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_saldo"><i class="fa fa-folder-open-o"></i> Saldo Kas </a></li>
 
-		<li class="<?php if ($this->uri->segment(1) == 'lap_laba') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_laba"><i class="fa fa-folder-open-o"></i> Laba Rugi </a></li>
+		<!-- <li class="<?php if ($this->uri->segment(1) == 'lap_laba') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_laba"><i class="fa fa-folder-open-o"></i> Laba Rugi </a></li> -->
 
-		<li class="<?php if ($this->uri->segment(1) == 'lap_shu') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_shu"><i class="fa fa-folder-open-o"></i> SHU </a></li>
+		<!-- <li class="<?php if ($this->uri->segment(1) == 'lap_shu') { echo 'active'; } ?>"> <a href="<?php echo base_url(); ?>lap_shu"><i class="fa fa-folder-open-o"></i> SHU </a></li> -->
 		<?php } ?>
 	</ul>
 </li>
@@ -169,9 +169,9 @@ if(in_array($this->uri->segment(1), $menu_sett_arr)) {echo "active";}?>">
 
 	<li class="<?php if ($this->uri->segment(1) == 'suku_bunga') { echo 'active'; } ?>">  <a href="<?php echo base_url(); ?>suku_bunga"> <i class="fa fa-folder-open-o"></i> Suku Bunga </a></li>
 
-	<li class="<?php if ($this->uri->segment(1) == 'backup') { echo 'active'; } ?>">  <a href="utility/backup_data.php" target="_blank" > <i class="fa fa-folder-open-o"></i> Backup </a></li>
+	<!-- <li class="<?php if ($this->uri->segment(1) == 'backup') { echo 'active'; } ?>">  <a href="utility/backup_data.php" target="_blank" > <i class="fa fa-folder-open-o"></i> Backup </a></li>
 
-       	<li class="<?php if ($this->uri->segment(1) == 'restore') { echo 'active'; } ?>">  <a href="utility/restore_data.php" target="_blank" > <i class="fa fa-folder-open-o"></i> Restore </a></li>
+       	<li class="<?php if ($this->uri->segment(1) == 'restore') { echo 'active'; } ?>">  <a href="utility/restore_data.php" target="_blank" > <i class="fa fa-folder-open-o"></i> Restore </a></li> -->
 
 </ul>
 </li>
