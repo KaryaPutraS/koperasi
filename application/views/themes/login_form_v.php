@@ -37,8 +37,9 @@
                 <h4>Member Login - <a href="<?php echo site_url('login'); ?>" class="btn btn-primary">Admin/Opreator</a>
                 </h4>
                 <?php } else { ?>
-                <h4>Admin / Operator Login - <a href="<?php echo site_url('member'); ?>"
-                        class="btn btn-primary">Member</a></h4>
+                <!-- <h4>Admin / Operator Login - <a href="<?php echo site_url('member'); ?>"
+                        class="btn btn-primary">Member</a></h4> -->
+                    <h4>Admin / Operator Login</h4>
                 <?php } ?>
 
                 <?php

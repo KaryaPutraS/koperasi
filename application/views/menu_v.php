@@ -64,7 +64,7 @@ if(in_array($this->uri->segment(1), $menu_data_arr)) {echo "active";}?>">
 
 <?php if($level != 'pinjaman') { ?>
 <!-- Menu Simpanan -->
-<li  class="treeview <?php 
+<!-- <li  class="treeview <?php 
 	 $menu_trans_arr= array('simpanan','penarikan');
 	 if(in_array($this->uri->segment(1), $menu_trans_arr)) {echo "active";}?>">
 
@@ -82,7 +82,7 @@ if(in_array($this->uri->segment(1), $menu_data_arr)) {echo "active";}?>">
 
 	</ul>
 </li>
-<?php } ?>
+<?php } ?> -->
 
 <!-- menu pinjaman -->
 <li  class="treeview <?php 
@@ -95,7 +95,7 @@ if(in_array($this->uri->segment(1), $menu_pinjam_arr)) {echo "active";}?>">
 	<i class="fa fa-angle-left pull-right"></i>
 </a>
 <ul class="treeview-menu">
-	<li class="<?php if ($this->uri->segment(1) == 'pengajuan' || $this->uri->segment(1) == 'pengajuan'){ echo 'active'; } ?>">  <a href="<?php echo base_url(); ?>pengajuan"> <i class="fa fa-folder-open-o"></i> Data Pengajuan </a></li>
+	<!-- <li class="<?php if ($this->uri->segment(1) == 'pengajuan' || $this->uri->segment(1) == 'pengajuan'){ echo 'active'; } ?>">  <a href="<?php echo base_url(); ?>pengajuan"> <i class="fa fa-folder-open-o"></i> Data Pengajuan </a></li> -->
 	<?php if($level != 'pinjaman') { ?>
 	<li class="<?php if ($this->uri->segment(1) == 'pinjaman' || $this->uri->segment(1) == 'angsuran_detail'){ echo 'active'; } ?>">  <a href="<?php echo base_url(); ?>pinjaman"> <i class="fa fa-folder-open-o"></i> Data Pinjaman </a></li>  
 	<li class="<?php if ($this->uri->segment(1) == 'bayar' || $this->uri->segment(1) == 'angsuran') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>bayar"> <i class="fa fa-folder-open-o"></i> Bayar Angsuran</a></li> 
