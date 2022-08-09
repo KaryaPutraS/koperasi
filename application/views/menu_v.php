@@ -25,7 +25,7 @@ if(in_array($this->uri->segment(1), $menu_data_arr)) {echo "active";}?>">
 </a>
 <ul class="treeview-menu">
 	<?php if($level == 'admin') { ?>
-		<li class="<?php if ($this->uri->segment(1) == 'jenis_simpanan') { echo 'active'; } ?>">  <a href="<?php echo base_url(); ?>jenis_simpanan"> <i class="fa fa-folder-open-o"></i> Jenis Simpanan </a></li>
+		<!-- <li class="<?php if ($this->uri->segment(1) == 'jenis_simpanan') { echo 'active'; } ?>">  <a href="<?php echo base_url(); ?>jenis_simpanan"> <i class="fa fa-folder-open-o"></i> Jenis Simpanan </a></li> -->
 
 		<li class="<?php if ($this->uri->segment(1) == 'jenis_akun') { echo 'active'; } ?>">  <a href="<?php echo base_url(); ?>jenis_akun"> <i class="fa fa-folder-open-o"></i> Jenis Akun </a></li>
 
@@ -49,7 +49,7 @@ if(in_array($this->uri->segment(1), $menu_data_arr)) {echo "active";}?>">
 
 	<a href="#">
 		<img height="20" src="<?php echo base_url().'assets/theme_admin/img/transaksi.png'; ?>">
-		<span>Transaksi Kas</span>
+		<span>Transaksi</span>
 		<i class="fa fa-angle-left pull-right"></i>
 	</a>
 	<ul class="treeview-menu">
@@ -57,7 +57,7 @@ if(in_array($this->uri->segment(1), $menu_data_arr)) {echo "active";}?>">
 
 		<li class="<?php if ($this->uri->segment(1) == 'pengeluaran_kas') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>pengeluaran_kas"> <i class="fa fa-folder-open-o"></i> Pengeluaran </a></li>
 
-		<li class="<?php if ($this->uri->segment(1) == 'transfer_kas') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>transfer_kas"> <i class="fa fa-folder-open-o"></i> Transfer </a></li>
+		<li class="<?php if ($this->uri->segment(1) == 'transfer_kas') { echo 'active'; } ?>"><a href="<?php echo base_url(); ?>transfer_kas"> <i class="fa fa-folder-open-o"></i> Transfer Kas</a></li>
 	</ul>
 </li>
 <?php } ?>
