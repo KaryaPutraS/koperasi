@@ -127,7 +127,7 @@ striped="true">
 							</td>	
 						</tr>
 						<tr style="height:35px">
-							<td>Nama Barang</td>
+							<td>Jenis Pinjaman</td>
 							<td>:</td>
 							<td>
 								<select id="barang_id" name="barang_id" style="width:195px; height:25px" class="easyui-validatebox" required="true">
@@ -141,7 +141,7 @@ striped="true">
 							</td>	
 						</tr>
 						<tr style="height:35px">
-							<td>Harga Barang</td>
+							<td>Nilai</td>
 							<td>:</td>
 							<td>
 								<input class="" id="jumlah" name="jumlah" style="width:195px; height:25px; background-color:#eee;" readonly="true"  />
@@ -166,9 +166,12 @@ striped="true">
 							<td>:</td>
 							<td>
 								<input type="hidden" name="bunga" id="bunga" readonly="readonly" />
-								<input type="text" id="bunga_txt" name="bunga_txt" style="background:#eee; border-width:1; width:195px; height:23px" readonly="true" />
+								<input type="text" id="bunga_txt" name="bunga_txt" style="background:#eee; border-width:1; width:195px; height:23px" />
 							</td>	
+							
 						</tr>
+
+						
 						<tr style="height:35px">
 							<td>Biaya Admin</td>
 							<td>:</td>

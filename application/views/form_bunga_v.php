@@ -49,33 +49,33 @@
 				<td>';
 
 			//dana cadangan 
-				$data = array(
-					'name'        	=> 'dana_cadangan',
-					'id'				=> 'dana_cadangan',
-					'class'			=> 'form-control',
-					'value'       	=> $dana_cadangan,
-					'maxlength'   	=> '255',
-					'style'       	=> 'width: 50%'
-					);
-				echo form_label('Dana Cadangan (%)', 'dana_cadangan');
-				echo form_input($data);
-				echo '
-				</td>
-				<td>';
+			// 	$data = array(
+			// 		'name'        	=> 'dana_cadangan',
+			// 		'id'				=> 'dana_cadangan',
+			// 		'class'			=> 'form-control',
+			// 		'value'       	=> $dana_cadangan,
+			// 		'maxlength'   	=> '255',
+			// 		'style'       	=> 'width: 50%'
+			// 		);
+			// 	echo form_label('Dana Cadangan (%)', 'dana_cadangan');
+			// 	echo form_input($data);
+			// 	echo '
+			// 	</td>
+			// 	<td>';
 
-				$data = array(
-					'name'        	=> 'jasa_usaha',
-					'id'				=> 'jasa_usaha',
-					'class'			=> 'form-control',
-					'value'       	=> $jasa_usaha,
-					'maxlength'   	=> '255',
-					'style'       	=> 'width: 50%'
-					);
-				echo form_label('Jasa Usaha (%)', 'jasa_usaha');
-				echo form_input($data);
-				echo '
-				</td>
-			</tr>';				
+			// 	$data = array(
+			// 		'name'        	=> 'jasa_usaha',
+			// 		'id'				=> 'jasa_usaha',
+			// 		'class'			=> 'form-control',
+			// 		'value'       	=> $jasa_usaha,
+			// 		'maxlength'   	=> '255',
+			// 		'style'       	=> 'width: 50%'
+			// 		);
+			// 	echo form_label('Jasa Usaha (%)', 'jasa_usaha');
+			// 	echo form_input($data);
+			// 	echo '
+			// 	</td>
+			// </tr>';				
 
 			echo '
 			<tr>
@@ -96,32 +96,32 @@
 				<td>';
 
 			//dana cadangan 
-			$data = array(
-				'name'        => 'jasa_anggota',
-				'id'			=> 'jasa_anggota',
-				'class'		=> 'form-control',
-				'value'       => $jasa_anggota,
-				'maxlength'   => '255',
-				'style'       => 'width: 50%'
-				);
-			echo form_label('Jasa Anggota (%)', 'jasa_anggota');
-			echo form_input($data);
-			echo '
-				</td>
-				<td>';
-			$data = array(
-				'name'        => 'jasa_modal',
-				'id'			=> 'jasa_modal',
-				'class'		=> 'form-control',
-				'value'       => $jasa_modal,
-				'maxlength'   => '255',
-				'style'       => 'width: 50%'
-				);
-			echo form_label('Jasa Modal Anggota (%)', 'jasa_modal');
-			echo form_input($data);
-			echo '
-				</td>
-			</tr>';
+			// $data = array(
+			// 	'name'        => 'jasa_anggota',
+			// 	'id'			=> 'jasa_anggota',
+			// 	'class'		=> 'form-control',
+			// 	'value'       => $jasa_anggota,
+			// 	'maxlength'   => '255',
+			// 	'style'       => 'width: 50%'
+			// 	);
+			// echo form_label('Jasa Anggota (%)', 'jasa_anggota');
+			// echo form_input($data);
+			// echo '
+			// 	</td>
+			// 	<td>';
+			// $data = array(
+			// 	'name'        => 'jasa_modal',
+			// 	'id'			=> 'jasa_modal',
+			// 	'class'		=> 'form-control',
+			// 	'value'       => $jasa_modal,
+			// 	'maxlength'   => '255',
+			// 	'style'       => 'width: 50%'
+			// 	);
+			// echo form_label('Jasa Modal Anggota (%)', 'jasa_modal');
+			// echo form_input($data);
+			// echo '
+			// 	</td>
+			// </tr>';
 			
 
 			//biaya admin
@@ -143,33 +143,33 @@
 				<td>';
 			
 			//dana pengurus 
-			$data = array(
-				'name'        => 'dana_pengurus',
-				'id'			=> 'dana_pengurus',
-				'class'		=> 'form-control',
-				'value'       => $dana_pengurus,
-				'maxlength'   => '255',
-				'style'       => 'width: 50%'
-				);
-			echo form_label('Dana Pengurus (%)', 'dana_pengurus');
-			echo form_input($data);
-			echo '
-				</td>
-				<td>';
-			//pjk pph 
-			$data = array(
-				'name'        => 'pjk_pph',
-				'id'			=> 'pjk_pph',
-				'class'		=> 'form-control',
-				'value'       => $pjk_pph,
-				'maxlength'   => '255',
-				'style'       => 'width: 50%'
-				);
-			echo form_label('Pajak PPh (%)', 'pjk_pph');
-			echo form_input($data);
-			echo '
-				</td>
-			</tr>';
+			// $data = array(
+			// 	'name'        => 'dana_pengurus',
+			// 	'id'			=> 'dana_pengurus',
+			// 	'class'		=> 'form-control',
+			// 	'value'       => $dana_pengurus,
+			// 	'maxlength'   => '255',
+			// 	'style'       => 'width: 50%'
+			// 	);
+			// echo form_label('Dana Pengurus (%)', 'dana_pengurus');
+			// echo form_input($data);
+			// echo '
+			// 	</td>
+			// 	<td>';
+			// //pjk pph 
+			// $data = array(
+			// 	'name'        => 'pjk_pph',
+			// 	'id'			=> 'pjk_pph',
+			// 	'class'		=> 'form-control',
+			// 	'value'       => $pjk_pph,
+			// 	'maxlength'   => '255',
+			// 	'style'       => 'width: 50%'
+			// 	);
+			// echo form_label('Pajak PPh (%)', 'pjk_pph');
+			// echo form_input($data);
+			// echo '
+			// 	</td>
+			// </tr>';
 
 			//biaya denda
 			echo '
@@ -190,20 +190,20 @@
 				<td>';
 
 			//dana karyawan 
-			$data = array(
-				'name'        => 'dana_karyawan',
-				'id'			=> 'dana_karyawan',
-				'class'		=> 'form-control',
-				'value'       => $dana_karyawan,
-				'maxlength'   => '255',
-				'style'       => 'width: 50%'
-				);
-			echo form_label('Dana Karyawan (%)', 'dana_karyawan');
-			echo form_input($data);
-			echo '
-				</td>
-				<td></td>
-			</tr>';
+			// $data = array(
+			// 	'name'        => 'dana_karyawan',
+			// 	'id'			=> 'dana_karyawan',
+			// 	'class'		=> 'form-control',
+			// 	'value'       => $dana_karyawan,
+			// 	'maxlength'   => '255',
+			// 	'style'       => 'width: 50%'
+			// 	);
+			// echo form_label('Dana Karyawan (%)', 'dana_karyawan');
+			// echo form_input($data);
+			// echo '
+			// 	</td>
+			// 	<td></td>
+			// </tr>';
 
 			//jumlah denda hari
 			echo '<tr><td>';
@@ -222,35 +222,35 @@
 				<td>';
 			
 			//dana pendidikan
-			$data = array(
-				'name'        => 'dana_pend',
-				'id'			=> 'dana_pend',
-				'class'		=> 'form-control',
-				'value'       => $dana_pend,
-				'maxlength'   => '25',
-				'style'       => 'width: 50%'
-				);
-			echo form_label('Dana Pendidikan (%)', 'dana_pend');
-			echo form_input($data);
-			echo '
-				</td>
-				<td></td>
-			</tr>';
+			// $data = array(
+			// 	'name'        => 'dana_pend',
+			// 	'id'			=> 'dana_pend',
+			// 	'class'		=> 'form-control',
+			// 	'value'       => $dana_pend,
+			// 	'maxlength'   => '25',
+			// 	'style'       => 'width: 50%'
+			// 	);
+			// echo form_label('Dana Pendidikan (%)', 'dana_pend');
+			// echo form_input($data);
+			// echo '
+			// 	</td>
+			// 	<td></td>
+			// </tr>';
 			//dana sosial 
 			echo '
 			<tr>
 				<td></td>
 				<td>';
-			$data = array(
-				'name'        => 'dana_sosial',
-				'id'			=> 'dana_sosial',
-				'class'		=> 'form-control',
-				'value'       => $dana_sosial,
-				'maxlength'   => '255',
-				'style'       => 'width: 50%'
-				);
-			echo form_label('Dana Sosial (%)', 'dana_sosial');
-			echo form_input($data);
+			// $data = array(
+			// 	'name'        => 'dana_sosial',
+			// 	'id'			=> 'dana_sosial',
+			// 	'class'		=> 'form-control',
+			// 	'value'       => $dana_sosial,
+			// 	'maxlength'   => '255',
+			// 	'style'       => 'width: 50%'
+			// 	);
+			// echo form_label('Dana Sosial (%)', 'dana_sosial');
+			// echo form_input($data);
 			echo '
 				</td>
 				<td></td>
