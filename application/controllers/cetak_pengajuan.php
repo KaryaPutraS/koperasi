@@ -86,7 +86,7 @@ class Cetak_pengajuan extends OPPController {
 				<th style="width:8%;">ID Ajuan</th>
 				<th style="width:10%;">NIK</th>
 				<th style="width:25%;">Nama</th>
-				<th style="width:11%;">Dept</th>
+				<th style="width:11%;">Satker</th>
 				<th style="width:8%;">Tanggal</th>
 				<th style="width:10%;">Nominal</th>
 				<th style="width:10%;">Pelunasan</th>

@@ -45,7 +45,7 @@ striped="true">
 		<th data-options="field:'anggota_id',halign:'center', align:'center'" hidden="true">ID</th>
 		<th data-options="field:'anggota_id_txt', width:'15', halign:'center', align:'center'">ID Anggota</th>
 		<th data-options="field:'nama', width:'35',halign:'center', align:'left'">Nama Anggota</th>
-		<th data-options="field:'departement', width:'15',halign:'center', align:'left'">Dept</th>
+		<th data-options="field:'departement', width:'15',halign:'center', align:'left'">Satker</th>
 		<th data-options="field:'jenis_id',halign:'center', align:'center'" hidden="true">Jenis</th>
 		<th data-options="field:'jenis_id_txt', width:'20',halign:'center', align:'left'">Jenis Simpanan</th>
 		<th data-options="field:'jumlah', width:'15', halign:'center', align:'right'">Jumlah</th>

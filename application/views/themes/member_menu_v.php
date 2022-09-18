@@ -33,20 +33,21 @@ $open_prof = in_array($this->uri->segment(2), $m_prof_arr) ? 'active' : '';
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="<?php echo $a_home; ?>"><a href="<?php echo site_url('member/view'); ?>">Beranda</a></li>
-				<li class="dropdown <?php echo $open_ajuan; ?>">
+				<!-- <li class="dropdown <?php echo $open_ajuan; ?>">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pengajuan Pinjaman <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li class="<?php echo $a_ajuan_list; ?>"><a href="<?php echo site_url('member/pengajuan'); ?>">Data Pengajuan</a></li>
 						<li role="separator" class="divider"></li>
 						<li class="<?php echo $a_ajuan_baru; ?>"><a href="<?php echo site_url('member/pengajuan_baru'); ?>">Tambah Pengajuan Baru</a></li>
 					</ul>
-				</li>				
+				</li>				 -->
 				<li class="dropdown <?php echo $open_lap; ?>">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Laporan <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li class="<?php echo $a_lap_simpanan; ?>"><a href="<?php echo site_url('member/lap_simpanan'); ?>">Simpanan</a></li>
-						<li role="separator" class="divider"></li>
+						<!-- <li class="<?php echo $a_lap_simpanan; ?>"><a href="<?php echo site_url('member/lap_simpanan'); ?>">Simpanan</a></li> -->
 						<li class="<?php echo $a_lap_pinjaman; ?>"><a href="<?php echo site_url('member/lap_pinjaman'); ?>">Pinjaman</a></li>
+						<li role="separator" class="divider"></li>
+						
 						<li class="<?php echo $a_lap_bayar; ?>"><a href="<?php echo site_url('member/lap_bayar'); ?>">Pembayaran</a></li>
 					</ul>
 				</li>				

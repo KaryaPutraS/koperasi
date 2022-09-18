@@ -75,7 +75,7 @@ class Cetak_pinjaman_detail extends OperatorController {
 				<td class="h_kanan"> '.number_format($row->pokok_angsuran).'</td>
 			</tr>
 			<tr>
-				<td> Dept </td>
+				<td> Satker </td>
 				<td> : </td>
 				<td> '.$anggota->departement.'</td>
 

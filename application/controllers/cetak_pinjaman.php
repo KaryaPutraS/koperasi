@@ -80,7 +80,7 @@ class Cetak_pinjaman extends OperatorController {
 				<td>'.strtoupper($anggota->nama).'</td>
 			</tr>
 			<tr>
-				<td> Dept </td>
+				<td> Satker </td>
 				<td>:</td>
 				<td>'.$anggota->departement.'</td>
 			</tr>

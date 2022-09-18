@@ -93,7 +93,7 @@ echo '<a href="'.site_url().'/pinjaman" class="btn btn-sm btn-danger" title="Kem
 							<td> <?php echo $data_anggota->nama; ?></td>
 						</tr>
 						<tr>
-							<td> Dept </td>
+							<td> Satker </td>
 							<td> : </td>
 							<td> <?php echo $data_anggota->departement; ?></td>
 						</tr>

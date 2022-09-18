@@ -122,7 +122,7 @@ class Lap_pinjaman extends AdminController {
 							<td class="h_kiri"><strong>'.strtoupper($anggota->nama).'</strong></td>
 						</tr>
 						<tr>
-							<td>Dept </td>
+							<td>Satker </td>
 							<td>:</td>
 							<td class="h_kiri">'.$anggota->departement.'</td>
 						</tr>

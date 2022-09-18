@@ -94,7 +94,7 @@ $total_bayar = $sisa_bayar + $jml_denda;
 						<td> <?php echo $data_anggota->nama; ?></td>
 					</tr>
 					<tr>
-						<td> Dept </td>
+						<td> Satker </td>
 						<td> : </td>
 						<td> <?php echo $data_anggota->departement; ?></td>
 					</tr>

@@ -29,8 +29,8 @@ class Anggota extends OperatorController {
 		$crud->display_as('tgl_lahir','Tanggal Lahir');
 		$crud->display_as('notelp','Nomor Telepon / HP');
 		$crud->display_as('tgl_daftar','Tanggal Registrasi');
-		$crud->display_as('jabatan_id','Jabatan');
-		$crud->display_as('departement','Departement');
+		$crud->display_as('jabatan_id','Keanggotaan');
+		$crud->display_as('departement','Satker');
 		$crud->display_as('pass_word','Password');
 		$crud->display_as('file_pic','Photo');
 		$crud->display_as('aktif','Aktif Keanggotaan');
@@ -68,15 +68,15 @@ class Anggota extends OperatorController {
 		$crud->field_type('departement','dropdown',
 			array(
 				'' 						=> '',
-				'Produksi BOPP' 		=> 'Produksi BOPP',
-				'Produksi Slitting' 	=> 'Produksi Slitting',
-				'WH' 						=> 'WH',
-				'QA' 						=> 'QA',
-				'HRD' 					=> 'HRD',
-				'GA' 						=> 'GA',
-				'Purchasing' 			=> 'Purchasing',
-				'Accounting' 			=> 'Accounting',
-				'Engineering' 			=> 'Engineering'
+				'Bag SDM' 		=> 'Bag SDM',
+				'Bag Ops' 	=> 'Bag Ops',
+				'Bag Sarpras' 			=> 'Bag Sarpras',
+				'Sat Resnarkoba' 						=> 'Sat Resnarkoba',
+				'Sat Reskrim' 					=> 'Sat Reskrim',
+				'Sat Intelkam' 						=> 'Sat Intelkam',
+				'Sat Polair' 			=> 'Sat Polair',
+				'Sat Binmas' 			=> 'Sat Binmas',
+				'Sat Samapta' 			=> 'Sat Samapta'
 			));
 
 		$this->db->select('id_kerja,jenis_kerja');
@@ -95,7 +95,7 @@ class Anggota extends OperatorController {
 		$crud->field_type('jabatan_id','dropdown',
 			array('2' => 'Anggota',
 				'1' => 'Pengurus'));
-		$crud->display_as('jabatan_id','Jabatan');
+		$crud->display_as('jabatan_id','Keanggotaan');
 		
 		$crud->field_type('aktif','dropdown',
 			array('Y' => 'Aktif','N' => 'Non Aktif'));

@@ -89,7 +89,7 @@ class Cetak_angsuran extends OperatorController {
 			<td colspan="2">: SUKSES</td>
 		</tr>
 		<tr>
-			<td> Dept </td>
+			<td> Satker </td>
 			<td>:</td>
 			<td class="h_kiri">'.$anggota->departement.'</td>
 		</tr>

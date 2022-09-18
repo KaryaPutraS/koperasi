@@ -36,7 +36,7 @@ Halo, <?php echo $this->data['u_name']; ?> Silahkan pilih menu disamping untuk m
 		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 		<div class="small-box bg-yellow">
 			<div class="inner">
-				<h2 class="kotak_judul"> Pinjaman Kredit</h2>
+				<h4 class="kotak_judul"> Pinjaman Kredit</h4>
 				<table>
 					<tr>
 						<td class="h_kanan"><strong style="font-size: 20px;"><?php echo $peminjam;?></strong></td>
@@ -102,9 +102,9 @@ Halo, <?php echo $this->data['u_name']; ?> Silahkan pilih menu disamping untuk m
 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 		<div class="small-box bg-purple">
 			<div class="inner">
-				<h2 class="kotak_judul"> Kas Bulan <?php echo $txt_periode ?>
+				<h4 class="kotak_judul"> Kas Bulan <?php echo $txt_periode ?>
 
-				 </h2>
+				 </h4>
 				<table>
 					<tr>
 						<td class="h_kanan"><strong style="font-size: 20px;">
@@ -143,7 +143,7 @@ Halo, <?php echo $this->data['u_name']; ?> Silahkan pilih menu disamping untuk m
 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 		<div class="small-box bg-blue">
 			<div class="inner">
-				<h2 class="kotak_judul"> Data Anggota</h2>
+				<h4 class="kotak_judul"> Data Anggota</h4>
 				<table>
 					<tr>
 						<td class="h_kanan"><strong style="font-size: 20px;"><?php echo $anggota_aktif;?></strong></td>
@@ -172,7 +172,7 @@ Halo, <?php echo $this->data['u_name']; ?> Silahkan pilih menu disamping untuk m
 		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 		<div class="small-box bg-red">
 			<div class="inner">
-				<h2 class="kotak_judul"> Data Peminjam</h2>
+				<h4 class="kotak_judul"> Data Peminjam</h4>
 				<table>
 					<tr>
 						<td class="h_kanan"><strong style="font-size: 20px;"><?php echo $peminjam_aktif;?></strong></td>
@@ -201,7 +201,7 @@ Halo, <?php echo $this->data['u_name']; ?> Silahkan pilih menu disamping untuk m
 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 		<div class="small-box bg-aqua">
 			<div class="inner">
-				<h2 class="kotak_judul"> Data Pengguna</h2>
+				<h4 class="kotak_judul"> Data Pengguna</h4>
 				<table>
 					<tr>
 						<td class="h_kanan"><strong style="font-size: 20px;">

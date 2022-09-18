@@ -35,7 +35,7 @@ striped="true">
 
 		<th data-options="field:'anggota_id_txt', width:'35', halign:'center', align:'left'">Nama Anggota</th>
 
-		<th data-options="field:'departement', width:'15', halign:'center', align:'left'">Dept</th>
+		<th data-options="field:'departement', width:'15', halign:'center', align:'left'">Satker</th>
 
 		<th data-options="field:'tgl_pinjam_txt', width:'21', halign:'center', align:'center'">Tanggal Pinjam</th>
 

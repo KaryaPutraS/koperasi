@@ -131,7 +131,7 @@ striped="true">
 							<td>:</td>
 							<td>
 								<select id="barang_id" name="barang_id" style="width:195px; height:25px" class="easyui-validatebox" required="true">
-									<option value="0"> -- Pilih Barang --</option>
+									<option value="0"> -- Jenis Pinjaman --</option>
 									<?php	
 									foreach ($barang_id as $row) {
 										echo '<option value="'.$row->id.'">'.$row->nm_barang.' Rp '.number_format($row->harga).'</option>';

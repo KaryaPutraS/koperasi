@@ -217,7 +217,7 @@ class Penarikan extends OperatorController {
 				<th class="h_tengah" style="width:8%;"> No Transaksi</th>
 				<th class="h_tengah" style="width:7%;"> Tanggal </th>
 				<th class="h_tengah" style="width:25%;"> Nama Anggota </th>
-				<th class="h_tengah" style="width:13%;"> Dept </th>
+				<th class="h_tengah" style="width:13%;"> Satker </th>
 				<th class="h_tengah" style="width:18%;"> Jenis Simpanan </th>
 				<th class="h_tengah" style="width:13%;"> Jumlah  </th>
 				<th class="h_tengah" style="width:10%;"> User </th>
